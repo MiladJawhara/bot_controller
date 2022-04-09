@@ -32,15 +32,15 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
 import StandardLink from 'src/components/StandardLink.vue';
+import { defineComponent, ref } from 'vue';
 
 const linksList = [
   {
-    title: 'Users',
-    caption: 'Bot Users List',
-    icon: 'group',
-    link: '/users',
+    title: 'Home',
+    caption: 'Main page',
+    icon: 'home',
+    link: '/',
   },
 ];
 
